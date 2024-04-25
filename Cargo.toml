@@ -1,0 +1,8 @@
+[package]
+name = "imagenet-rs"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+tract-tensorflow = "0.21.3"
+image = { version = "0.25.1", default-features = false, features = ["jpeg"] }
